@@ -1,8 +1,8 @@
 # Welcome! Hack along with OpenShift@symbioticon 2018
 
-Hi! We're so proud offering you a fully-fledged OpenShift server for your development and demoing needs at the **symbioticon 2018** in Frankfurt.
+Hi! We're extremely proud offering you a fully-fledged OpenShift server for your development and demoing needs at the **symbioticon 2018** in Frankfurt.
 
-To get you started quickly, we the collected information we think is most needed for the hackathon. 
+To get you started quickly, we collected information we think is most needed for the hackathon. 
 
 ## What is OpenShift
 OpenShift is a developer-centric enterprise Kubernetes distribution orchestrating an OCI compatible container runtime like docker naka moby. 
@@ -33,7 +33,6 @@ This cluster is ready to use and brings you the following advantages:
   * Skip IDE fiddling overhead, save precious hackathon time and use Eclipse Che or FUSE ignite (Camel routes and mappings) in the browser.
   * Use up-to-date technologies such as Serverless and the integrated Istio Service Mesh.
   * Use any docker container (not demanding root priviliges - won't work).
- 
 
 ## How can we get a Cluster
 Just come around to our table. Look for red hats. Talk to us ;)
@@ -57,12 +56,9 @@ If you want to get a super boost, skip local IDE adjustments and eliminate "runs
   1. Syntax highlighting and intelligent proposal support for many languages.
   1. Git integration -> OpenShift flow supported.
   1. NN
-  
- 
-
 
 ### Useful Tools to be Installed
-
+With the OpenShift web console and Che you could basically run the hackathon without and IDE and without the terminal. To have more finegrained control or just keep up with your IDE and CLI workflow, there are some handy tools supporting your interaction with OpenShift.
 
 #### oc
 
