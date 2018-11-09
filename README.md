@@ -1,37 +1,79 @@
-## Welcome to GitHub Pages
+# Welcome! Hack along with OpenShift@symbioticon 2018
 
-You can use the [editor on GitHub](https://github.com/karstengresch/symbiotishift/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Hi, we're proud offering you a fully-fledged OpenShift server for your development and demoing needs at the symbioticon 2018 in Frankfurt.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+To get you started quickly, we put useful here together so you can get up to speed and focus. 
 
-### Markdown
+## What is OpenShift
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Why Should the Team use OpenShift
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## How can we get a Cluster
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## How to Develop With OpenShift
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Basic Flow
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/karstengresch/symbiotishift/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Eclipse Che
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+### Useful Tools to be Installed
+
+
+#### oc
+
+
+#### odo
+
+
+#### nodeshift
+
+
+#### Eclipse/DevStudio
+
+
+## Survival Guide
+
+
+### Support at the Hackathon (Onsite Team!)
+
+
+### CLI Ninja
+
+
+#### Create a Project
+
+
+#### Delete a Project
+
+
+#### Manually Trigger a Build
+
+
+#### Manually Trigger a Deployment
+
+
+#### Expose Your App
+
+
+### Ramp up for Node Devs
+
+
+### Ramp up for Java Devs
+
+
+### Ramp up for Mobile Devs
+
+
+## symbiotishift: Just an Inofficial Name :)
+First a disclaimer: Red Hat is not affiliated with the symbioticon or the Sparkassen Gruppe at all, but on of many sponsors. 
+We used the name in the tradition of other OpenShift related tools (minishift, nodeshift) and just found it funny. Relax.
+
+
+
