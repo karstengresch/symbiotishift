@@ -1,10 +1,11 @@
 # Welcome! Hack along with OpenShift@symbioticon 2018
 
-Hi, we're proud offering you a fully-fledged OpenShift server for your development and demoing needs at the symbioticon 2018 in Frankfurt.
+Hi! We're so proud offering you a fully-fledged OpenShift server for your development and demoing needs at the **symbioticon 2018** in Frankfurt.
 
-To get you started quickly, we put useful here together so you can get up to speed and focus. 
+To get you started quickly, we the collected information we think is most needed for the hackathon. 
 
 ## What is OpenShift
+OpenShift is a developer-centric enterprise Kubernetes distribution. It covers the entire lifecycle from code commit to running your containerized application in production with built-in functionality.
 
 
 ## Why Should the Team use OpenShift
@@ -69,6 +70,10 @@ To get you started quickly, we put useful here together so you can get up to spe
 
 
 ### Ramp up for Mobile Devs
+
+
+### Ramp up for ML Folks
+
 
 
 ## symbiotishift: Just an Inofficial Name :)
