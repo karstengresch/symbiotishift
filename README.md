@@ -27,14 +27,24 @@ This cluster is ready to use and brings you the following advantages:
       * Middleware (e.g. Infinispan/JBoss Data Grid Cache, Apache Camel/JBoss FUSE, Apache ActiveMQ Artemis/AMQ)
       * Databases (MariaDB, MySQL, PostgreSQL, Mongo, Redis)
       * ML (Spark cluster and running in two minutes, Jupiter Notebooks, JDG Computing Grid)
-  * Skip IDE fiddling overhead, save precious hackathon time and use Eclipse Che running on the platform    
-
+      * Mobile (Push Notifications, Security)
+      * API Management (if needed) with 3scale
+  * Skip IDE fiddling overhead, save precious hackathon time and use Eclipse Che or FUSE ignite (Camel routes and mappings) in the browser.
+  * Use up-to-date technologies such as Serverless and the integrated Istio Service Mesh.
+ 
 
 ## How can we get a Cluster
-
+Just come around to our table. Look for red hats. Talk to us ;)
 
 ## How to Develop With OpenShift
+Though you can tweak OpenShift - as every Kubernetes distribution - to hell, there's also a built in opinionated path:
 
+  1. Create a project in OpenShift (basically a fixed Kubernetes namespace).
+  1. Set up a Git repo (Git(Hub|Lab)/BitBucket). Or know its repo URL.
+  1. Add a source-to-image based technology/stack to your project that suits your repo (e.g. Node.js repo -> Node.js s2i. Not Python :D).
+  1. Enter some parameters (mainly the repo URL) and confirm.
+  1. That's it - based on the repo a build will automatically be created, put into a container an instantiated. Based on the app template even routes are created automatically.
+  1. New commits trigger new background builds automatically - ready for testing by the other team members.
 
 ### Basic Flow
 
