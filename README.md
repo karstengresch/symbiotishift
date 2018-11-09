@@ -44,7 +44,7 @@ With OpenShift, true dev support comes into Kubernetes.
 Though you can tweak OpenShift - as every Kubernetes distribution - to hell, there's also a built-in opinionated path:
 
   1. Create a project in OpenShift (basically a fixed Kubernetes namespace).
-  1. Set up a Git repo (Git(Hub|Lab)/BitBucket). Or know its repo URL.
+  1. Set up a Git repo (e.g. on GitHub/GitLab/BitBucket). Or know its repo URL.
   1. Add a source-to-image based technology/stack to your project that suits your repo (e.g. Node.js repo -> Node.js s2i. Not Python :D).
   1. Enter some parameters (mainly the repo URL) and confirm.
   1. That's it - based on the repo a build will automatically be created, put into a container an instantiated. Based on the app template even routes are created automatically.
