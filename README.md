@@ -32,6 +32,7 @@ This cluster is ready to use and brings you the following advantages:
       * API Management (if needed) with 3scale
   * Skip IDE fiddling overhead, save precious hackathon time and use Eclipse Che or FUSE ignite (Camel routes and mappings) in the browser.
   * Use up-to-date technologies such as Serverless and the integrated Istio Service Mesh.
+  * Use any docker container (not demanding root priviliges - won't work).
  
 
 ## How can we get a Cluster
