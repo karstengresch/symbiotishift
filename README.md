@@ -78,37 +78,77 @@ You can get it from here: +++TODO
 
 #### odo
 
-`odo` (probably "OpenShift do") is a developer-centric CLI to support common OpenShift interaction when creating and developing applications. It can save you a good amount of time at a hackathing.
+`odo` (probably "OpenShift do") is a developer-centric CLI to support common OpenShift interaction when creating and developing applications. It can save you a good amount of time at a hackathon.
+
+You can get it from here: +++TODO
+
+ Basic overview here:  +++TODO
 
 #### nodeshift
 
+Specialized OpenShift for node.js developers comes with nodeshift that deeply integrates the node ecosystem and tooling with OpenShift.
+
+You can get it from here: +++TODO
+
+Basic overview here:  +++TODO
+
 #### Eclipse/DevStudio
+When using Eclipse, there's built-in OpenShift support available.
+Either use the Red Hat Dev Studio (with Eclipse) or the Dev Studio Tooling Eclipse plugin.
+
+You can get it from here: +++TODO
+
+ Basic overview here:  +++TODO
 
 ## Survival Guide
 
+
 ### Support at the Hackathon (Onsite Team!)
+There's a dedicated Red Hat team for you at the hackathon. Look out for our table and talk to the middleware and infrastructure specialist there to get support. Don't be shy - there are no dumb questions and we do all we can to get your project winning!
+
+Save time, be more relaxed - just talk to us. We're happy to help!
 
 ### CLI Ninja
++++ TODO move CLI stuff to separate page!
+
+The most basic stuff to keep you productive on the platform is 
 
 #### Create a Project
+oc
+odo
 
 #### Delete a Project
+oc
+odo
 
 #### Manually Trigger a Build
+oc
+odo
 
 #### Manually Trigger a Deployment
+oc
+odo
+nodeshift
 
 #### Expose Your App
+oc
+odo
+nodeshift
 
 ### Ramp up for Node Devs
++++TODO
 
 ### Ramp up for Java Devs
++++TODO
 
 ### Ramp up for Mobile Devs
++++TODO
 
 ### Ramp up for ML Folks
++++TODO
 
 ## symbiotishift: Just an Inofficial Name :)
 
-First a disclaimer: Red Hat is not affiliated with the symbioticon or the Sparkassen Gruppe at all, but on of many sponsors. 
+First a disclaimer: Red Hat is not affiliated with the symbioticon or the Sparkassen Gruppe at all, but one of many great sponsors.
+
 We used the name in the tradition of other OpenShift related tools (minishift, nodeshift) and just found it funny. Relax.
