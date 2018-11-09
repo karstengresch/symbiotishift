@@ -161,6 +161,8 @@ nodeshift
 
 #### OpenShift Documentation
 
+#### Red Hat Developer Network
++++TODO
 
 ## symbiotishift: Just an Inofficial Name :)
 
