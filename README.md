@@ -111,28 +111,35 @@ Save time, be more relaxed - just talk to us. We're happy to help!
 ### CLI Ninja
 +++ TODO move CLI stuff to separate page!
 
-The most basic stuff to keep you productive on the platform is 
+Summary of most basic commands to keep you productive on the platform.
 
 #### Create a Project
 oc
+
 odo
 
 #### Delete a Project
 oc
+
 odo
 
 #### Manually Trigger a Build
 oc
+
 odo
 
 #### Manually Trigger a Deployment
 oc
+
 odo
+
 nodeshift
 
 #### Expose Your App
 oc
+
 odo
+
 nodeshift
 
 ### Ramp up for Node Devs
@@ -146,6 +153,14 @@ nodeshift
 
 ### Ramp up for ML Folks
 +++TODO
+
+### Further Documentation/Learning Tools
+
+#### Katacoda: Interactive Tutorials on a Live Platform
++++TODO
+
+#### OpenShift Documentation
+
 
 ## symbiotishift: Just an Inofficial Name :)
 
