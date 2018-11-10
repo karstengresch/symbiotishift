@@ -70,7 +70,7 @@ With the OpenShift web console and Che you could basically run the hackathon wit
 
 #### oc
 
-`oc` is the general-purpose CLI for OpenShift. It wraps its entire REST API and, thus, supports both ops and dev workflows. You need it for the 
+`oc` is the general-purpose CLI for OpenShift. It wraps its entire REST API and, thus, supports both ops and dev workflows. You need it for the other tools, so make sure installing it in any case.
 
 You can get it from here: +++TODO
 
