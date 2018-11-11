@@ -86,7 +86,7 @@ You can get it from here: +++TODO
 
 #### nodeshift
 
-Specialized OpenShift for node.js developers comes with nodeshift that deeply integrates the node ecosystem and tooling with OpenShift.
+Specialized OpenShift tooling for node.js developers. Deeply integrates the node ecosystem and tooling with OpenShift.
 
 You can get it from here: +++TODO
 
@@ -100,6 +100,18 @@ Either use the Red Hat Dev Studio (with Eclipse) or the Dev Studio Tooling Eclip
 You can get it from here: +++TODO
 
  Basic overview here:  +++TODO
+
+#### JetBrains IDEs (IDEA, WebStorm, pycharm et al.)
+
+https://plugins.jetbrains.com/plugin/9354-kubernetes-and-openshift-resource-support
+
+https://plugins.jetbrains.com/plugin/10485-kubernetes
+
+
+
+
+
+
 
 ## Survival Guide
 
