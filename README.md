@@ -78,7 +78,7 @@ You can get it from here: +++TODO
 
 #### odo
 
-`odo` (probably "OpenShift do") is a developer-centric CLI to support common OpenShift interaction when creating and developing applications. It can save you a good amount of time at a hackathon.
+`odo` ("OpenShift Do") is a developer-centric CLI on top of `oc` to support common OpenShift interaction when developing applications. It can save you a good amount of time at a hackathon.
 
 You can get it from here: +++TODO
 
@@ -93,6 +93,7 @@ You can get it from here: +++TODO
 Basic overview here:  +++TODO
 
 #### Eclipse/DevStudio
+
 When using Eclipse, there's built-in OpenShift support available.
 Either use the Red Hat Dev Studio (with Eclipse) or the Dev Studio Tooling Eclipse plugin.
 
@@ -102,33 +103,38 @@ You can get it from here: +++TODO
 
 ## Survival Guide
 
-
 ### Support at the Hackathon (Onsite Team!)
+
 There's a dedicated Red Hat team for you at the hackathon. Look out for our table and talk to the middleware and infrastructure specialist there to get support. Don't be shy - there are no dumb questions and we do all we can to get your project winning!
 
 Save time, be more relaxed - just talk to us. We're happy to help!
 
 ### CLI Ninja
+
 +++ TODO move CLI stuff to separate page!
 
 Summary of most basic commands to keep you productive on the platform.
 
 #### Create a Project
+
 oc
 
 odo
 
 #### Delete a Project
+
 oc
 
 odo
 
 #### Manually Trigger a Build
+
 oc
 
 odo
 
 #### Manually Trigger a Deployment
+
 oc
 
 odo
@@ -136,6 +142,7 @@ odo
 nodeshift
 
 #### Expose Your App
+
 oc
 
 odo
@@ -143,25 +150,31 @@ odo
 nodeshift
 
 ### Ramp up for Node Devs
+
 +++TODO
 
 ### Ramp up for Java Devs
+
 +++TODO
 
 ### Ramp up for Mobile Devs
+
 +++TODO
 
 ### Ramp up for ML Folks
+
 +++TODO
 
 ### Further Documentation/Learning Tools
 
 #### Katacoda: Interactive Tutorials on a Live Platform
+
 +++TODO
 
 #### OpenShift Documentation
 
 #### Red Hat Developer Network
+
 +++TODO
 
 ## symbiotishift: Just an Inofficial Name :)
