@@ -80,9 +80,11 @@ You can get it from here: +++TODO
 
 `odo` ("OpenShift Do") is a developer-centric CLI on top of `oc` to support common OpenShift interaction when developing applications. It can save you a good amount of time at a hackathon.
 
-You can get it from here: +++TODO
+You can get it from here: [https://github.com/redhat-developer/odo/releases](https://github.com/redhat-developer/odo/releases)
 
- Basic overview here:  +++TODO
+ Basic overview here:  
+ 
+ Interactive tutorial here: 
 
 #### nodeshift
 
