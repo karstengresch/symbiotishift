@@ -59,32 +59,29 @@ Though you can tweak OpenShift - as every Kubernetes distribution - to hell, the
 
 If you want to get a super boost, skip local IDE adjustments and eliminate "runs on my computer" problems: Use Eclipse Che, an IDE that runs in the browser. It comes with some functionality that is extra handy for the hackathon:
 
-1. Code collaboration: Multiple users can code in the same workspace simultaneously.
+1. Code collaboration: Multiple hackers can code in the same workspace simultaneously.
 2. Syntax highlighting and intelligent proposal support for many languages.
 3. Git integration -> OpenShift flow supported.
-4. NN
+4. Run and access your app in the browser (automatic route exposure).
 
 ### Useful Tools to be Installed
-
 With the OpenShift web console and Che you could basically run the hackathon without and IDE and without the terminal. To have more finegrained control or just keep up with your IDE and CLI workflow, there are some handy tools supporting your interaction with OpenShift.
 
 #### oc
+`oc` is the general-purpose CLI for OpenShift. It wraps its entire REST API and, thus, supports both ops and dev workflows. You need it for the other tools, so make sure installing it in any case!
 
-`oc` is the general-purpose CLI for OpenShift. It wraps its entire REST API and, thus, supports both ops and dev workflows. You need it for the other tools, so make sure installing it in any case.
+You can get it from here: [https://github.com/openshift/origin/releases/tag/v3.11.0](https://github.com/openshift/origin/releases/tag/v3.11.0) (extract the `oc` executable from the archive and put, make it executable and put it under a $PATH-included directory).
 
-You can get it from here: +++TODO
-
- Basic overview here:  +++TODO
+Basic overview:  `oc --help`
 
 #### odo
-
 `odo` ("OpenShift Do") is a developer-centric CLI on top of `oc` to support common OpenShift interaction when developing applications. It can save you a good amount of time at a hackathon.
 
 You can get it from here: [https://github.com/redhat-developer/odo/releases](https://github.com/redhat-developer/odo/releases)
 
- Basic overview here:  
+Basic overview here: 
  
- Interactive tutorial here: 
+Interactive tutorial here (Katacoda, needs sign-up): [https://www.katacoda.com/mjelen/courses/introduction/developing-with-odo](https://www.katacoda.com/mjelen/courses/introduction/developing-with-odo)
 
 #### nodeshift
 
@@ -202,7 +199,6 @@ Contains tracks for various topics (usually around ~15 min each):
 ### Further Documentation/Learning Tools
 
 #### Katacoda: Interactive Tutorials on a Live Platform
-
 
 
 +++TODO
