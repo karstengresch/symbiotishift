@@ -74,6 +74,8 @@ You can get it from here: [https://github.com/openshift/origin/releases/tag/v3.1
 
 Basic overview:  `oc --help`
 
+Cookbook: [https://github.com/openshift-evangelists/openshift-cookbook](https://github.com/openshift-evangelists/openshift-cookbook)
+
 #### odo
 `odo` ("OpenShift Do") is a developer-centric CLI on top of `oc` to support common OpenShift interaction when developing applications. It can save you a good amount of time at a hackathon.
 
