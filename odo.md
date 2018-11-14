@@ -12,16 +12,15 @@ We'll be going over the following steps:
 
 **Your first application**
 
- 1. [Create an application](#2-create-an-application)
- 1. [Create a component](#3-create-a-component)
- 1. [Accessing the component](#4-accessing-the-component)
- 1. [Pushing new changes to the component](#5-pushing-new-changes-to-the-component)
- 1. [Adding storage to the component](#6-adding-storage-to-the-component)
+ 1. [Create an application](#1-create-an-application)
+ 1. [Create a component](#2-create-a-component)
+ 1. [Accessing the component](#3-accessing-the-component)
+ 1. [Pushing new changes to the component](#4-pushing-new-changes-to-the-component)
+ 1. [Adding storage to the component](#5-adding-storage-to-the-component)
 
 **Extra documentation:**
 
-- [OpenShift Notes](#openshift-notes)
-- [Adding a Custom Builder](#adding-a-custom-builder)
+* [Service Catalog](#service-catalog)
 
 
 ## Your first application
@@ -39,7 +38,7 @@ Using project "myproject".
 
 Now we can move on to creating our application using `odo`.
 
-### 2. Create an application
+### 1. Create an application
 
 An application is an umbrella that will comprise all the components (microservices) you will build.
 
@@ -51,7 +50,7 @@ Creating application: nodeapp
 Switched to application: nodeapp
 ```
 
-### 3. Create a component
+### 2. Create a component
 
 First, we'll download the our test application: 
 
@@ -105,7 +104,7 @@ changes successfully pushed to component: nodejs-ex-nodejs-xfru
 
 Great news! Your component has been deployed to OpenShift! Now we'll connect to the component.
 
-### 4. Accessing the component
+### 3. Accessing the component
 
 To access the component, we'll need to create an OpenShift route:
 
@@ -119,7 +118,7 @@ nodejs-ex-nodejs-xfru - http://nodejs-ex-nodejs-xfru-foo-myproject.192.168.42.20
 
 Now simply access the URL `nodejs-myproject.192.168.42.147.nip.io` in the browser and you will be able to view your deployed application.
 
-### 5. Pushing new changes to the component
+### 4. Pushing new changes to the component
 
 Let's make some changes to the code and push them.
 
@@ -143,7 +142,7 @@ Refresh your application in the browser, and you'll be able to see the changes.
 
 After each change, you can continue updating your component by using: `odo push nodejs`.
 
-### 6. Adding storage to the component
+### 5. Adding storage to the component
 
 Now that you've got your component running, how do you add persistent any data between restarts?
 

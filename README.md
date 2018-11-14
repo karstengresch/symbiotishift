@@ -79,7 +79,7 @@ Basic overview:  `oc --help`
 
 You can get it from here: [https://github.com/redhat-developer/odo/releases](https://github.com/redhat-developer/odo/releases)
 
-Basic overview here: 
+Basic overview here: [odo.md](odo.md)
  
 Interactive tutorial here (Katacoda, needs sign-up): [https://www.katacoda.com/mjelen/courses/introduction/developing-with-odo](https://www.katacoda.com/mjelen/courses/introduction/developing-with-odo)
 
