@@ -167,9 +167,29 @@ nodeshift
 
 +++TODO
 
+#### Interactive Tutorial (On Live Platform)
+[https://learn.openshift.com/middleware/rhoar-getting-started-nodejs/](https://learn.openshift.com/middleware/rhoar-getting-started-nodejs/)
+
+
 ### Ramp up for Java Devs
 
 +++TODO
+
+#### Interactive Learning at Katacoda (Live Environments)
+Contains tracks for various topics (usually around ~15 min each):
+
+* **Getting Started with Spring**<br>Basic Introduction to Spring on Red Hat OpenShift
+* **Spring MVC**<br>Model/View/Controller pattern with Spring's MVC framework.
+* **Spring REST**<br>RESTful applications using Spring Rest
+* **Spring Data with JPA/Hibernate**<br>Database Integration in Spring Boot on OpenShift
+* **Spring Messaging with Red Hat AMQ**<br>Modern Distributed microservices using Red Hat messaging
+* **Testing Spring Applications with Arquillian Cube**<br>Integration testing in a containerized environment
+* **Externalized Configuration**<br>Externalized Configuration and Health Checks
+* **Service Discovery and Load Balancing**<br>Service Discovery and Load Balancing
+* **Fault Tolerance and Resiliency**<br>Circuit Breaking
+* **Monitoring Spring Applications on OpenShift**
+
+[https://learn.openshift.com/middleware/courses/middleware-spring-boot/](https://learn.openshift.com/middleware/courses/middleware-spring-boot/)
 
 ### Ramp up for Mobile Devs
 
@@ -183,6 +203,8 @@ nodeshift
 
 #### Katacoda: Interactive Tutorials on a Live Platform
 
+
+
 +++TODO
 
 #### OpenShift Documentation
@@ -191,7 +213,7 @@ nodeshift
 
 +++TODO
 
-## symbiotishift: Just an Inofficial Name :)
+## symbiotishift: An _Inofficial_ Name :)
 
 First a disclaimer: Red Hat is not affiliated with the symbioticon or the Sparkassen Gruppe at all, but one of many great sponsors.
 
