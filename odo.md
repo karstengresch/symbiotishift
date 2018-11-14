@@ -28,7 +28,7 @@ We'll be going over the following steps:
 Log in to the OpenShift cluster:
 
 ```sh
-$ oc login --token "YOUR_TOKEN_AS_GIVEN_FROM_US_HERE"
+$ oc login --token "YOUR_TOKEN_AFTER_GETTING_CREDENTIALS_FROM_US"
 Login successful.
 
 You have one project on this server: "myproject"
