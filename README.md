@@ -137,6 +137,17 @@ oc
 odo
 `odo project create <project-name>`
 
+#### List Available Projects
+oc
+`oc get project` (=> w/ status)
+OR
+`oc projects` (with hints)
+
+odo
+`odo project list`
+
+
+
 #### Delete a Project
 
 oc
