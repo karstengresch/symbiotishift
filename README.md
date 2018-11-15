@@ -81,9 +81,9 @@ Cookbook: [https://github.com/openshift-evangelists/openshift-cookbook](https://
 
 You can get it from here: [https://github.com/redhat-developer/odo/releases](https://github.com/redhat-developer/odo/releases)
 
-Basic overview here: [odo.md](odo.md)
+Basic overview here: [odo.md](odo.md) or `odo`
  
-Interactive tutorial here (Katacoda, needs sign-up): [https://www.katacoda.com/mjelen/courses/introduction/developing-with-odo](https://www.katacoda.com/mjelen/courses/introduction/developing-with-odo)
+Interactive tutorial here (Katacoda, needs sign-up, takes around ~10 minutes): [https://www.katacoda.com/mjelen/courses/introduction/developing-with-odo](https://www.katacoda.com/mjelen/courses/introduction/developing-with-odo)
 
 #### nodeshift
 
