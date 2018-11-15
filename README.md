@@ -97,6 +97,7 @@ API doc:  [https://nodeshift.github.io/nodeshift/](https://nodeshift.github.io/n
 
 When using Eclipse, there's built-in OpenShift support available.
 Either use the Red Hat Dev Studio (with Eclipse) or the Dev Studio Tooling Eclipse plugin.
+If you have Eclipse (Photon) installed, we recommend using the plugin.
 
 You can get it from here: +++TODO
 
