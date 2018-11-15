@@ -140,6 +140,12 @@ oc
 
 odo
 
+#### Delete All Stuff Within a Project
+E.g. if you want to proceed working, but delete all apps, pods, configs etc.
+
+`oc delete all --all`
+
+
 #### Manually Trigger a Build
 
 oc
