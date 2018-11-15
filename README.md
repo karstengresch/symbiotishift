@@ -132,8 +132,10 @@ Summary of most basic commands to keep you productive on the platform.
 #### Create a Project
 
 oc
+`oc new-project <project-name>`
 
 odo
+`odo project create <project-name>`
 
 #### Delete a Project
 
