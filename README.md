@@ -89,9 +89,9 @@ Interactive tutorial here (Katacoda, needs sign-up): [https://www.katacoda.com/m
 
 Specialized OpenShift tooling for node.js developers. Deeply integrates the node ecosystem and tooling with OpenShift.
 
-You can get it from here: +++TODO
+You can get it from here: `npm install -g nodeshift`
 
-Basic overview here:  +++TODO
+API doc:  [https://nodeshift.github.io/nodeshift/](https://nodeshift.github.io/nodeshift/)
 
 #### Eclipse/DevStudio
 
