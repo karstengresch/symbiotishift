@@ -1,6 +1,6 @@
 # Welcome! Hack along with OpenShift@symbioticon 2018
 
-Hi! We're extremely proud offering you a fully-fledged OpenShift server for your development and demoing needs at the **symbioticon 2018** in Frankfurt.
+Hi! We're extremely proud offering you a fully-fledged OpenShift cluster for your development and demoing needs at the **symbioticon 2018** in Frankfurt.
 
 To get you started quickly, we collected information we think is most needed for the hackathon. 
 
