@@ -135,11 +135,15 @@ odo
 
 #### List Available Projects
 oc
+
 `oc get project` (=> w/ status)
+
 OR
+
 `oc projects` (with hints)
 
 odo
+
 `odo project list`
 
 #### Delete a Project
@@ -158,7 +162,19 @@ E.g. if you want to proceed working, but delete all apps, pods, configs etc.
 
 #### Manually Trigger a Build
 
-oc 
+oc
+
+```
+  # Starts build from build config "build-config-name"
+  oc start-build build-config-name
+
+  # Start a new build for build config "build-config-name" and watch the logs until the build completes or fails.
+  oc start-build build-config-name --follow
+
+  # Start a new build for build config "build-config-name" and wait until the build completes. It
+  # exits with a non-zero return code if the build fails.
+  oc start-build build-config-name --wait 
+```
 
 odo
 
