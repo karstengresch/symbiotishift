@@ -184,6 +184,8 @@ No equivalent. Use `odo push` after code updates.
 
 oc
 
+
+
 odo
 
 No equivalent. Use `odo push` after code updates.
@@ -192,7 +194,11 @@ No equivalent. Use `odo push` after code updates.
 
 oc
 
+
+
 odo
+
+
 
 ### Ramp up for Node Devs
 
