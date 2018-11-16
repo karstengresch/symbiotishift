@@ -178,11 +178,15 @@ oc
 
 odo
 
+No equivalent. Use `odo push` after code updates.
+
 #### Manually Trigger a Deployment
 
 oc
 
 odo
+
+No equivalent. Use `odo push` after code updates.
 
 #### Expose Your App
 
