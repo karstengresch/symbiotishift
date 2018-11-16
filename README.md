@@ -216,7 +216,14 @@ Contains tracks for various topics (usually around ~15 min each):
 
 ### Ramp up for ML Folks
 
-+++TODO
+```
+oc new-project <project-name>
+oc create -f https://radanalytics.io/resources.yaml
+```
+
+Then add *Oshinko Web UI* to your project.
+
+Then, check out the tutorials at [https://radanalytics.io/tutorials](https://radanalytics.io/tutorials) (Spark, NL processing, Recommendation Engie, Kafka + Spark, Geo Analytics, Juypter Risk Analysis, Zeppelin and more...).
 
 ### Further Documentation/Learning Tools
 
