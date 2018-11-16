@@ -158,7 +158,7 @@ E.g. if you want to proceed working, but delete all apps, pods, configs etc.
 
 #### Manually Trigger a Build
 
-oc
+oc 
 
 odo
 
@@ -168,15 +168,11 @@ oc
 
 odo
 
-nodeshift
-
 #### Expose Your App
 
 oc
 
 odo
-
-nodeshift
 
 ### Ramp up for Node Devs
 
@@ -208,7 +204,9 @@ Contains tracks for various topics (usually around ~15 min each):
 
 ### Ramp up for Mobile Devs
 
-+++TODO
+We have a special tooling that allows push notification called AeroGear. Check out the detailed instructions at [Carlos' GitHub repository](https://github.com/cvicens/symbioticon18).
+
+If you need this, please contact us and we'll support you getting it up and running. 
 
 ### Ramp up for ML Folks
 
@@ -226,9 +224,9 @@ Then, check out the tutorials at [https://radanalytics.io/tutorials](https://rad
 #### Katacoda: Interactive Tutorials on a Live Platform
 
 
-+++TODO
-
 #### OpenShift Documentation
+
+[Developer Guide](https://docs.openshift.com/container-platform/3.11/dev_guide/index.html)
 
 #### Red Hat Developer Network
 
