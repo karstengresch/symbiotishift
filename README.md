@@ -109,13 +109,6 @@ Though there is basic Kubernetes available in the JetBrains IDEs (see [here](htt
   * use either the OpenShift web UI, `oc` or `odo` for setting up projects etc. and
   * setup a webhook to enable automatic builds.
 
-
-
-
-
-
-
-
 ## Survival Guide
 
 ### Support at the Hackathon (Onsite Team!)
@@ -123,6 +116,8 @@ Though there is basic Kubernetes available in the JetBrains IDEs (see [here](htt
 There's a dedicated Red Hat team for you at the hackathon. Look out for our table and talk to the middleware and infrastructure specialist there to get support. Don't be shy - there are no dumb questions and we do all we can to get your project winning!
 
 Save time, be more relaxed - just talk to us. We're happy to help!
+
+We have set up a special #red_hat channel in Symbioticon's [Slack group](https://bit.ly/2zQfb6U).
 
 ### CLI Ninja
 
@@ -147,19 +142,19 @@ OR
 odo
 `odo project list`
 
-
-
 #### Delete a Project
+Hint: We don't make backups. If you have your code under version control, you should be save.
 
-oc
+`oc delete project <project-name>`
 
-odo
+`odo project delete <project-name>`
 
 #### Delete All Stuff Within a Project
 E.g. if you want to proceed working, but delete all apps, pods, configs etc.
 
 `oc delete all --all`
 
+(No direct `odo` equivalent).
 
 #### Manually Trigger a Build
 
