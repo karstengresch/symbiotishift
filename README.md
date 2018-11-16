@@ -97,17 +97,18 @@ Basic information:  [https://nodeshift.github.io/nodeshift/](https://nodeshift.g
 
 When using Eclipse, there's built-in OpenShift support available.
 Either use the Red Hat Dev Studio (with Eclipse) or the Dev Studio Tooling Eclipse plugin.
-If you have Eclipse (Photon) installed, we recommend using the plugin.
+If you have Eclipse installed, we recommend using the plugin.
 
-You can get it from here: +++TODO
+You can get it from here: [https://developers.redhat.com/products/devstudio/download/](https://developers.redhat.com/products/devstudio/download/)
 
- Basic overview here:  +++TODO
+Basic overview here:  https://access.redhat.com/documentation/en-us/red_hat_developer_studio/12.9/html-single/getting_started_with_developer_studio_tools/index
 
 #### JetBrains IDEs (IDEA, WebStorm, pycharm et al.)
+Though there is basic Kubernetes available in the JetBrains IDEs (see [here](https://plugins.jetbrains.com/plugin/9354-kubernetes-and-openshift-resource-support) and - more up-to-date - [here](https://plugins.jetbrains.com/plugin/10485-kubernetes)), we recommend that you 
+  * follow your normal flow with your JetBrains IDE and 
+  * use either the OpenShift web UI, `oc` or `odo` for setting up projects etc. and
+  * setup a webhook to enable automatic builds.
 
-https://plugins.jetbrains.com/plugin/9354-kubernetes-and-openshift-resource-support
-
-https://plugins.jetbrains.com/plugin/10485-kubernetes
 
 
 
