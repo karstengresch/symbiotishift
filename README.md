@@ -262,6 +262,8 @@ Then add *Oshinko Web UI* to your project.
 
 Then, check out the tutorials at [https://radanalytics.io/tutorials](https://radanalytics.io/tutorials) (Spark, NL processing, Recommendation Engie, Kafka + Spark, Geo Analytics, Juypter Risk Analysis, Zeppelin and more...).
 
+There's even a specialised oshinko CLI - just get through the short documentation.
+
 ### Further Documentation/Learning Tools
 
 #### Katacoda: Interactive Tutorials on a Live Platform
@@ -274,7 +276,7 @@ The best way to get a short hands-on training is [https://learn.openshift.com](h
 
 #### Red Hat Developer Network
 
-+++TODO
+Join the Red Hat Developer network at [https://developers.redhat.com/](https://developers.redhat.com/) to get free ebooks and access to all (Enterprise) software and more.
 
 ## symbiotishift: An _Inofficial_ Name :)
 
