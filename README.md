@@ -266,6 +266,7 @@ Then, check out the tutorials at [https://radanalytics.io/tutorials](https://rad
 
 #### Katacoda: Interactive Tutorials on a Live Platform
 
+The best way to get a short hands-on training is [https://learn.openshift.com](https://learn.openshift.com). You find tons of interactive tutorials (on a live platform) there.
 
 #### OpenShift Documentation
 
