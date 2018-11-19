@@ -202,7 +202,22 @@ odo
 
 ### Ramp up for Node Devs
 
-+++TODO
+There's broad support for Node developers on OpenShift.
+
+The most easiest way is `odo`:
+
+```
+odo app create node-example-app
+git clone https://github.com/openshift/nodejs-ex && cd nodejs-ex
+odo create nodejs
+odo push
+odo url create
+curl nodejs-myproject.192.168.42.147.nip.io
+```
+
+The built-in templates (e.g. Node.js and Mongo) will give you a good start, too.
+
+Finally, there is a special CLI, nodeshift (s.a.) as well as npx support for Nodes.js (s.a., too).
 
 #### Interactive Tutorial (On Live Platform)
 [https://learn.openshift.com/middleware/rhoar-getting-started-nodejs/](https://learn.openshift.com/middleware/rhoar-getting-started-nodejs/)
@@ -210,7 +225,9 @@ odo
 
 ### Ramp up for Java Devs
 
-+++TODO
+There are tons of Java based images (Tomcat/JBoss Web Server, JBoss EAP/Wildfly, Thorntail, Vert.x, Spring Boot, fatjar apps) - just select the image and link it to your source repository!
+
+If you want to build single jar apps with Gradle, check e.g. [https://github.com/jorgemoralespou/s2i-java.git](https://github.com/jorgemoralespou/s2i-java.git).
 
 #### Interactive Learning at Katacoda (Live Environments)
 Contains tracks for various topics (usually around ~15 min each):
