@@ -194,6 +194,9 @@ No equivalent. Use `odo push` after code updates.
 
 oc
 
+```
+oc expose svc/<your-app/service-name>
+```
 
 
 odo
