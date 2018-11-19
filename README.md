@@ -72,7 +72,8 @@ With the OpenShift web console and Che you could basically run the hackathon wit
 
 You can get it from here: [https://github.com/openshift/origin/releases/tag/v3.11.0](https://github.com/openshift/origin/releases/tag/v3.11.0) (extract the `oc` executable from the archive and put, make it executable and put it under a $PATH-included directory).
 
-Basic overview:  `oc --help`
+Basic overview:  
+```oc --help```
 
 Cookbook: [https://github.com/openshift-evangelists/openshift-cookbook](https://github.com/openshift-evangelists/openshift-cookbook)
 
@@ -121,42 +122,65 @@ We have set up a special #red_hat channel in Symbioticon's [Slack group](https:/
 
 ### CLI Ninja
 
-+++ TODO move CLI stuff to separate page!
-
 Summary of most basic commands to keep you productive on the platform.
 
 #### Create a Project
 
 oc
-`oc new-project <project-name>`
+
+```
+oc new-project <project-name>
+```
 
 odo
-`odo project create <project-name>`
+
+```
+odo project create <project-name>
+```
 
 #### List Available Projects
 oc
 
-`oc get project` (=> w/ status)
+```
+oc get project` (=> w/ status)
+```
 
 OR
 
-`oc projects` (with hints)
+```
+oc projects
+``` 
+(with hints)
 
 odo
 
-`odo project list`
+```
+odo project list
+```
 
 #### Delete a Project
 Hint: We don't make backups. If you have your code under version control, you should be save.
 
-`oc delete project <project-name>`
+oc
 
-`odo project delete <project-name>`
+```
+oc delete project <project-name>
+```
+
+odo
+
+```
+odo project delete <project-name>
+```
 
 #### Delete All Stuff Within a Project
 E.g. if you want to proceed working, but delete all apps, pods, configs etc.
 
-`oc delete all --all`
+oc
+
+```
+oc delete all --all
+```
 
 (No direct `odo` equivalent).
 
@@ -165,15 +189,13 @@ E.g. if you want to proceed working, but delete all apps, pods, configs etc.
 oc
 
 ```
-  # Starts build from build config "build-config-name"
-  oc start-build build-config-name
-
-  # Start a new build for build config "build-config-name" and watch the logs until the build completes or fails.
-  oc start-build build-config-name --follow
-
-  # Start a new build for build config "build-config-name" and wait until the build completes. It
-  # exits with a non-zero return code if the build fails.
-  oc start-build build-config-name --wait 
+# Starts build from build config "build-config-name"
+oc start-build build-config-name
+# Start a new build for build config "build-config-name" and watch the logs until the build completes or fails.
+oc start-build build-config-name --follow
+# Start a new build for build config "build-config-name" and wait until the build completes. It
+# exits with a non-zero return code if the build fails.
+oc start-build build-config-name --wait 
 ```
 
 odo
@@ -184,11 +206,15 @@ No equivalent. Use `odo push` after code updates.
 
 oc
 
-
+```
+oc rollout latest
+```
 
 odo
 
-No equivalent. Use `odo push` after code updates.
+```
+odo push
+```
 
 #### Expose Your App
 
@@ -201,7 +227,9 @@ oc expose svc/<your-app/service-name>
 
 odo
 
-
+```
+odo url create
+```
 
 ### Ramp up for Node Devs
 
@@ -220,7 +248,13 @@ curl nodejs-myproject.192.168.42.147.nip.io
 
 The built-in templates (e.g. Node.js and Mongo) will give you a good start, too.
 
-Finally, there is a special CLI, nodeshift (s.a.) as well as npx support for Nodes.js (s.a., too).
+Finally, there is a special CLI, nodeshift (s.a.) as well as npx support for Nodes.js:
+
+```
+npx express-generator .
+npx json -I -f package.json -e 'this.scripts.start="PORT=8080 node ./bin/www"'
+npx nodeshift --strictSSL=false --expose
+```
 
 #### Interactive Tutorial (On Live Platform)
 [https://learn.openshift.com/middleware/rhoar-getting-started-nodejs/](https://learn.openshift.com/middleware/rhoar-getting-started-nodejs/)
