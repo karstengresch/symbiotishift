@@ -1,8 +1,9 @@
 # odo - "OpenShift Do"
 ## Quickstart for Symbioticon
+([Back to main page](README.md))
 
 ### Installation
-
+You can get it from here: [https://github.com/redhat-developer/odo/releases](https://github.com/redhat-developer/odo/releases)
 
 ### Getting Started
 
