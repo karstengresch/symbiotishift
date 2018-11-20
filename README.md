@@ -264,7 +264,8 @@ npx nodeshift --strictSSL=false --expose
 
 There are tons of Java based images (Tomcat/JBoss Web Server, JBoss EAP/Wildfly, Thorntail, Vert.x, Spring Boot, fatjar apps) - just select the image and link it to your source repository!
 
-If you want to build single jar apps with Gradle, check e.g. [https://github.com/jorgemoralespou/s2i-java.git](https://github.com/jorgemoralespou/s2i-java.git).
+
+Out-of-the-box **Maven** support. If you want to build single jar apps with **Gradle**, check e.g. [https://github.com/jorgemoralespou/s2i-java.git](https://github.com/jorgemoralespou/s2i-java.git).
 
 #### Interactive Learning at Katacoda (Live Environments)
 Contains tracks for various topics (usually around ~15 min each):
