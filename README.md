@@ -256,6 +256,8 @@ npx json -I -f package.json -e 'this.scripts.start="PORT=8080 node ./bin/www"'
 npx nodeshift --strictSSL=false --expose
 ```
 
+B.t.w. - you find AHOI client apps for node at their GitHub repo: [https://github.com/sparkassen-hub](https://github.com/sparkassen-hub)
+
 #### Interactive Tutorial (On Live Platform)
 [https://learn.openshift.com/middleware/rhoar-getting-started-nodejs/](https://learn.openshift.com/middleware/rhoar-getting-started-nodejs/)
 
